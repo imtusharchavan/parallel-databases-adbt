@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>DBATU</title>
+{% endblock %}
+
+
+{% block body %}
+<h1>Dr Babasaheb Ambedkar Technological University, Lonere</h1>
+<div class="vacancy">
+
+    <table>
+        
+        <tr>
+            <th>Category</th>
+            <th>Availble seats</th>
+            <th>Actions</th>
+        </tr>  
+        {% for seat in seats %}
+            <tr>
+                <th>{{ seat.category }}</th>
+                <td>{{ seat.vacancies }}</td>
+                <td>
+                    <a href="/update/{{ seat.id }}">Update</a>
+                </td>
+            </tr>
+        {% endfor %}
+    </table>
+
+    <!-- <div class="form">
+        <form action="/" method="POST">
+            <input type="text" name="category" id="vacancy">
+            <input type="text" name="available" id="vacancy">
+            <input type="submit" value="add vacancies">
+        </form>
+    </div> -->
+
+</div>
+{% endblock %}
