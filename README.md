@@ -18,7 +18,7 @@ It runs the app in development mode. Open [http://127.0.0.1:5000](http://127.0.0
 
 ### Website B
 
-As your `Website-A` will be running on port:`5000` you will need to run this `Website-B` on a different.
+As your `Website-A` will be running on port:`5000` you will need to run this `Website-B` on a different port.
 
 Run:
 
