@@ -22,9 +22,9 @@ As your `Website-A` will be running on port:`5000` you will need to run this `We
 
 Run:
 
-1.`export FLASK_RUN_PORT=8000`
+1.`export FLASK_RUN_PORT=8000`.
 2. `flask run`
 
 It runs the app in development mode. Open [http://127.0.0.1:8000](http://127.0.0.1:8000) to view it in the browser.
 
-                    You have successfully connected two websites to a single database!
+You have successfully connected two websites to a single database!
