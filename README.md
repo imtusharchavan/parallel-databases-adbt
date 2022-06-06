@@ -20,10 +20,8 @@ It runs the app in development mode. Open [http://127.0.0.1:5000](http://127.0.0
 
 As your `Website-A` will be running on port:`5000` you will need to run this `Website-B` on a different port like `8000`.
 
-Run:
-
-1.`export FLASK_RUN_PORT=8000`.
-2. `flask run`
+1.First run `export FLASK_RUN_PORT=8000`.
+2.After changing the port, run `flask run`.
 
 It runs the app in development mode. Open [http://127.0.0.1:8000](http://127.0.0.1:8000) to view it in the browser.
 
