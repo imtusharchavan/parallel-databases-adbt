@@ -8,7 +8,9 @@ To run this project:
 
 1. Clone the repository or Download ZIP.
 2. Install Dependencies with `pip install -r requirements.txt`
-3. Create a new [postgresql](https://www.postgresql.org/download/) or any database of your choice and Configure the `SQLALCHEMY_DATABASE_URI` inside `app.py` file in both websites by providing the credentials of your newly created database.
+3. Create a new [postgresql](https://www.postgresql.org/download/) database.
+4. Create `.env` file inside both the websites and provide the credentials to the database as shown in the image:
+<div <img src="./images/.env.png"> </div>
 
 ### Website A
 
