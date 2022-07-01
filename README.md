@@ -16,11 +16,13 @@ To run this project:
 
 ![Alt text](images/.env.png?raw=true)
 
-5.To create the tables in the database open python interactive shell by typing `python` in the command line and enter these commands in the shell:
+5. Open python interactive shell by typing `python` in the command line and enter these commands in the shell:
 
 * `from app import db`
 * `db.create_all()`
 * `exit()`
+
+It will create the tables in the database.
 
 ### Website A
 
