@@ -7,11 +7,20 @@ This is lab practical of Advanced Database Technology for implementing Parallel 
 To run this project:
 
 1. Clone the repository or Download ZIP.
+
 2. Install Dependencies with `pip install -r requirements.txt`
+
 3. Create a new [postgresql](https://www.postgresql.org/download/) database.
+
 4. Create `.env` file inside both the websites and provide the credentials to the database as shown in the image:
 
 ![Alt text](images/.env.png?raw=true)
+
+5.To create the tables in the database open python interactive shell by typing `python` in the command line and enter these commands in the shell:
+
+* `from app import db`
+* `db.create_all()`
+* `exit()`
 
 ### Website A
 
